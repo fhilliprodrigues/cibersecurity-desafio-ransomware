@@ -84,14 +84,14 @@ echo "alo brasil" > teste.txt
 sudo apt install python3-pyaes
 ```
 
-### Criptografando o arquivo
+### Criptografando o arquivo e verificando o conteúdo
 
 ```shell
 python3 encrypter.py
 cat teste.txt
 ```
 
-### Descriptografando o arquivo
+### Descriptografando o arquivo e verificando o conteúdo
 
 ```shell
 python3 decrypter.py
