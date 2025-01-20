@@ -6,17 +6,23 @@
 - Python
 - vim
 
-### Criando os códigos e arquivos
+### Criando os arquivos
 
 - Criar diretório e arquivos de código e texto
 ```shell
 $ mkdir desafio-ransomware
-$ touch encrypter.py
-$ touch decrypter.py
-$ touch teste.txt
+$ touch desafio-ransomware/encrypter.py
+$ touch desafio-ransomware/decrypter.py
+$ touch desafio-ransomware/teste.txt
 ```
 
 - Criar o código do arquivo encrypter.py
+
+```shell
+vim encrypter.py
+```
+
+Inserir o conteúdo:
 
 ```python 
 import os
@@ -46,6 +52,12 @@ new_file.close()
 ```
 
 - Criar o código do arquivo decrypter.py
+
+```shell
+vim decrypter.py
+```
+
+Inserir o conteúdo:
 
 ```python
 import os
